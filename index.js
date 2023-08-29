@@ -15,7 +15,7 @@ client.on('ready', () => {
 })
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: process.env.OPENAI_API_KEY // Open AI API Key, put it in .env file
 })
 
 client.on('messageCreate', async message => {
